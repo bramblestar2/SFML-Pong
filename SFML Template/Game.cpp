@@ -75,7 +75,7 @@ void Game::updateEvents(sf::Event _Event)
 void Game::update(const double _DT)
 {
 	if (!paused)
-	{
+	{ 
 		p1.update(_DT);
 		p2.update(_DT);
 		b1.update(_DT);
