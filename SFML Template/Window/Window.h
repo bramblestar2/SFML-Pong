@@ -1,5 +1,6 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+#include "../Game.h"
 
 class Window
 {
@@ -19,6 +20,7 @@ private:
 	sf::Clock dtClock;
 	double dt;
 
+	Game game;
 	sf::RenderWindow* window;
 	sf::Event event;
 };
